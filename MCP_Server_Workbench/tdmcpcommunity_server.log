@@ -1,0 +1,300 @@
+[INFO|config_loader|L82] 2026-01-28T14:05:25+0000: Global config directory set to: /home/jovyan/JupyterLabRoot/Getting_Started/MCP_Server_Workbench
+[INFO|app|L58] 2026-01-28T14:05:25+0000: Configuration directory set to: /home/jovyan/JupyterLabRoot/Getting_Started/MCP_Server_Workbench
+[INFO|app|L71] 2026-01-28T14:05:25+0000: No profile specified, load all tools, prompts and resources.
+[INFO|utils|L161] 2026-01-28T14:05:25+0000: NumExpr defaulting to 4 threads.
+[INFO|td_connect|L99] 2026-01-28T14:05:26+0000: SQLAlchemy engine created for Teradata: host.docker.internal:1025/demo_user
+/opt/conda/envs/py311/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:88: DeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/opt/conda/envs/py311/lib/python3.11/site-packages/matplotlib/_fontconfig_pattern.py:92: DeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/opt/conda/envs/py311/lib/python3.11/site-packages/matplotlib/_mathtext.py:45: DeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+[WARNING|core|L213] 2026-01-28T14:05:27+0000: In /opt/conda/envs/py311/lib/python3.11/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+[WARNING|core|L213] 2026-01-28T14:05:27+0000: In /opt/conda/envs/py311/lib/python3.11/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+[WARNING|app|L109] 2026-01-28T14:05:30+0000: Feature Store module not available - disabling EFS functionality: No module named 'tdfs4ds'
+[INFO|dsa_client|L75] 2026-01-28T14:05:30+0000: bar: Initialized DSA client for https://localhost:9090/
+[WARNING|app|L138] 2026-01-28T14:05:30+0000: BAR tools enabled but DSA connection not configured (missing DSA_BASE_URL or DSA_HOST/DSA_PORT) - disabling BAR functionality
+[INFO|chat_tools|L106] 2026-01-28T14:05:30+0000: Chat completion configuration loaded successfully
+[INFO|chat_tools|L106] 2026-01-28T14:05:30+0000: Chat completion configuration loaded successfully
+[WARNING|app|L156] 2026-01-28T14:05:30+0000: Chat completion config missing required parameters (base_url: not set, model: not set) - disabling chat completion functionality
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'bar'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'base'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'chat'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'dba'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'fs'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'qlty'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'rag'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'sql_opt'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'sec'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'tmpl'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'plot'
+[INFO|module_loader|L65] 2026-01-28T14:05:30+0000: Pattern '.*' matches module 'tdvs'
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.base
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.bar
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.qlty
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.sec
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.tmpl
+[ERROR|module_loader|L116] 2026-01-28T14:05:30+0000: Failed to load module tdvs: No module named 'teradatagenai'
+[INFO|sql_opt_tools|L114] 2026-01-28T14:05:30+0000: SQL clustering configuration loaded successfully
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.sql_opt
+[INFO|module_loader|L98] 2026-01-28T14:05:30+0000: Loaded td_connect module
+[INFO|rag_tools|L70] 2026-01-28T14:05:30+0000: RAG configuration loaded successfully
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.rag
+[WARNING|module_loader|L112] 2026-01-28T14:05:30+0000: Feature Store module not available - required packages not installed. Install with: uv sync --extra fs or pip install -e .[fs]
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.plot
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.chat
+[INFO|module_loader|L92] 2026-01-28T14:05:30+0000: Loaded module: teradata_mcp_server.tools.dba
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_columnDescription
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_databaseList
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_readQuery
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_tableAffinity
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_tableDDL
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_tableList
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_tablePreview
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: base_tableUsage
+[INFO|app|L480] 2026-01-28T14:05:30+0000: Skipping BAR tool: bar_manageAWSS3Operations (BAR functionality disabled)
+[INFO|app|L480] 2026-01-28T14:05:30+0000: Skipping BAR tool: bar_manageDiskFileTargetGroup (BAR functionality disabled)
+[INFO|app|L480] 2026-01-28T14:05:30+0000: Skipping BAR tool: bar_manageDsaDiskFileSystem (BAR functionality disabled)
+[INFO|app|L480] 2026-01-28T14:05:30+0000: Skipping BAR tool: bar_manageJob (BAR functionality disabled)
+[INFO|app|L480] 2026-01-28T14:05:30+0000: Skipping BAR tool: bar_manageMediaServer (BAR functionality disabled)
+[INFO|app|L480] 2026-01-28T14:05:30+0000: Skipping BAR tool: bar_manageTeradataSystem (BAR functionality disabled)
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_columnSummary
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_distinctCategories
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_missingValues
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_negativeValues
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_rowsWithMissingValues
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_standardDeviation
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: qlty_univariateStatistics
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: sec_rolePermissions
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: sec_userDbPermissions
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: sec_userRoles
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: sql_Analyze_Cluster_Stats
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: sql_Execute_Full_Pipeline
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: sql_Retrieve_Cluster_Queries
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: rag_Execute_Workflow
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: plot_line_chart
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: plot_pie_chart
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: plot_polar_chart
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: plot_radar_chart
+[INFO|app|L484] 2026-01-28T14:05:30+0000: Skipping chat completion tool: chat_aggregatedCompleteChat (chat completion functionality disabled)
+[INFO|app|L484] 2026-01-28T14:05:30+0000: Skipping chat completion tool: chat_completeChat (chat completion functionality disabled)
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: dba_databaseSpace
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: dba_resusageSummary
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: dba_tableSpace
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: dba_tableSqlList
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: dba_tableUsageImpact
+[INFO|app|L488] 2026-01-28T14:05:30+0000: Created tool: dba_userSqlList
+[INFO|app|L560] 2026-01-28T14:05:30+0000: Loading all YAML files (no specific profile): 10 files
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: qlty_databaseQuality
+[INFO|app|L877] 2026-01-28T14:05:30+0000: Created tool: dba_databaseVersion
+[INFO|app|L877] 2026-01-28T14:05:30+0000: Created tool: dba_flowControl
+[INFO|app|L877] 2026-01-28T14:05:30+0000: Created tool: dba_featureUsage
+[INFO|app|L877] 2026-01-28T14:05:30+0000: Created tool: dba_userDelay
+[INFO|app|L877] 2026-01-28T14:05:30+0000: Created tool: dba_sessionInfo
+[INFO|app|L877] 2026-01-28T14:05:30+0000: Created tool: dba_systemSpace
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: dba_tableArchive
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: dba_databaseLineage
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: dba_tableDropImpact
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: dba_databaseHealthAssessment
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: dba_userActivityAnalysis
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: dba_systemVoice
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: tdvs_tools_prompt
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: tdvs_rag_prompt
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: _testMyServer
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: base_query
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: base_tableBusinessDesc
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: base_databaseBusinessDesc
+[INFO|app|L881] 2026-01-28T14:05:30+0000: Created prompt: chat_ai_mapreduce
+
+
+[2m╭──────────────────────────────────────────────────────────────────────────────╮[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                        [36m [0m[36m▄[0m[36m▀[0m[36m▀[0m[36m [0m[36m▄[0m[36m▀[0m[36m█[0m[36m [0m[36m█[0m[36m▀[0m[36m▀[0m[36m [0m[36m▀[0m[36m█[0m[36m▀[0m[36m [0m[36m█[0m[36m▀[0m[36m▄[0m[36m▀[0m[36m█[0m[94m [0m[94m█[0m[94m▀[0m[94m▀[0m[94m [0m[94m█[0m[94m▀[0m[94m█[0m                        [2m│[0m
+[2m│[0m                        [36m [0m[36m█[0m[36m▀[0m[36m [0m[36m [0m[36m█[0m[36m▀[0m[36m█[0m[36m [0m[36m▄[0m[36m▄[0m[36m█[0m[36m [0m[36m [0m[36m█[0m[36m [0m[36m [0m[36m█[0m[36m [0m[36m▀[0m[36m [0m[36m█[0m[94m [0m[94m█[0m[94m▄[0m[94m▄[0m[94m [0m[94m█[0m[94m▀[0m[94m▀[0m                        [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                                [1;34mFastMCP 2.14.4[0m                                [2m│[0m
+[2m│[0m                            [2mhttps://gofastmcp.com[0m                             [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                    [1m🖥 [0m[1m [0m[36mServer:     [0m[36m [0m[2mteradata-mcp-server  [0m                     [2m│[0m
+[2m│[0m                    [1m🚀[0m[1m [0m[36mDeploy free:[0m[36m [0m[2mhttps://fastmcp.cloud[0m                     [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+[34m╭──────────────────────────────────────────────────────────────────────────────╮[0m
+[34m│[0m                          [1m✨ FastMCP 3.0 is coming![0m                           [34m│[0m
+[34m│[0m       [2mPin [0m[1;2m`fastmcp < 3`[0m[2m in production, then upgrade when you're ready.[0m       [34m│[0m
+[34m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+
+
+[2;36m[01/28/26 14:05:30][0m[2;36m [0m[34mINFO    [0m Starting MCP server                  ]8;id=216804;file:///home/jovyan/.local/lib/python3.11/site-packages/fastmcp/server/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=869899;file:///home/jovyan/.local/lib/python3.11/site-packages/fastmcp/server/server.py#2580\[2m2580[0m]8;;\
+[2;36m                    [0m         [32m'teradata-mcp-server'[0m with transport [2m              [0m
+[2;36m                    [0m         [32m'streamable-http'[0m on                 [2m              [0m
+[2;36m                    [0m         [4;94mhttp://127.0.0.1:8765/mcp/[0m           [2m              [0m
+INFO:     Started server process [1181]
+INFO:     Waiting for application startup.
+[INFO|worker|L1097] 2026-01-28T14:05:30+0000: Starting worker 'fdbd20460126#1181' with the following tasks:
+[INFO|worker|L1099] 2026-01-28T14:05:30+0000: * trace(message: str, ...)
+[INFO|worker|L1099] 2026-01-28T14:05:30+0000: * fail(message: str, ...)
+[INFO|worker|L1099] 2026-01-28T14:05:30+0000: * sleep(seconds: float, ...)
+[INFO|streamable_http_manager|L116] 2026-01-28T14:05:30+0000: StreamableHTTP session manager started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52596 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:05:34+0000: Created new transport with session ID: 6bfb3a55f87d4dd89b634d0b1b167244
+INFO:     127.0.0.1:52596 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52604 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52608 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52604 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:52608 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52618 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52618 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:05:34+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:52634 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:05:34+0000: Terminating session: 6bfb3a55f87d4dd89b634d0b1b167244
+INFO:     127.0.0.1:52634 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41398 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:05:49+0000: Created new transport with session ID: 172957960577430484ce221abe089a59
+INFO:     127.0.0.1:41398 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41404 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41418 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41404 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41418 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41430 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41430 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:05:49+0000: Processing request of type CallToolRequest
+INFO:     127.0.0.1:41432 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41432 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:05:50+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:41438 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:05:50+0000: Terminating session: 172957960577430484ce221abe089a59
+INFO:     127.0.0.1:41438 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:05:55+0000: Created new transport with session ID: 72d7dc0fce7b46969b3cbbe28c4577f3
+INFO:     127.0.0.1:40964 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40980 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40994 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40980 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40994 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41004 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41004 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:05:55+0000: Processing request of type CallToolRequest
+INFO:     127.0.0.1:41014 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41014 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:05:55+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:41026 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:05:55+0000: Terminating session: 72d7dc0fce7b46969b3cbbe28c4577f3
+INFO:     127.0.0.1:41026 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41032 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:05:58+0000: Created new transport with session ID: 2a1ff0190d284611b3c0c71d93a1ee97
+INFO:     127.0.0.1:41032 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41036 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41038 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41036 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41038 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41040 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41040 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:05:58+0000: Processing request of type PingRequest
+INFO:     127.0.0.1:41054 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:05:58+0000: Terminating session: 2a1ff0190d284611b3c0c71d93a1ee97
+INFO:     127.0.0.1:41054 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48528 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:06:07+0000: Created new transport with session ID: d9cf4b1cfc63456d85c7cc96f99f162e
+INFO:     127.0.0.1:48528 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48542 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48544 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48542 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48544 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48560 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48560 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:06:07+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:48570 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:06:07+0000: Terminating session: d9cf4b1cfc63456d85c7cc96f99f162e
+INFO:     127.0.0.1:48570 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48518 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:06:23+0000: Created new transport with session ID: 37a973c292eb4c1a94b75fd8b17f97ea
+INFO:     127.0.0.1:48518 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48526 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48530 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48526 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:48530 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48540 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48540 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:06:23+0000: Processing request of type PingRequest
+INFO:     127.0.0.1:48542 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:06:23+0000: Terminating session: 37a973c292eb4c1a94b75fd8b17f97ea
+INFO:     127.0.0.1:48542 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41068 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:09:49+0000: Created new transport with session ID: 2804f1c0bde14257aec595f012bb5656
+INFO:     127.0.0.1:41068 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41076 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41092 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41076 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41092 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41100 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41100 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:09:49+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:41102 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:09:49+0000: Terminating session: 2804f1c0bde14257aec595f012bb5656
+INFO:     127.0.0.1:41102 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41118 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:09:49+0000: Created new transport with session ID: 4df3502269784e09b1c867ccf9280907
+INFO:     127.0.0.1:41118 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41134 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41140 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41134 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41140 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41152 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41152 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:09:49+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:41160 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:09:49+0000: Terminating session: 4df3502269784e09b1c867ccf9280907
+INFO:     127.0.0.1:41160 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47646 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:10:15+0000: Created new transport with session ID: 3202d32cb6514b11b9f8c85a77be0b5a
+INFO:     127.0.0.1:47646 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47658 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47670 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47658 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47670 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47678 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47678 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:10:15+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:47682 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:10:15+0000: Terminating session: 3202d32cb6514b11b9f8c85a77be0b5a
+INFO:     127.0.0.1:47682 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47698 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:10:15+0000: Created new transport with session ID: 10969985339c48979e3dbb2ec294c00b
+INFO:     127.0.0.1:47698 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47706 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47716 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47706 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47716 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47732 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47732 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:10:15+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:47742 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:10:15+0000: Terminating session: 10969985339c48979e3dbb2ec294c00b
+INFO:     127.0.0.1:47742 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42364 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http_manager|L240] 2026-01-28T14:12:26+0000: Created new transport with session ID: ed67da3c64204411ba3507b330dfdc0a
+INFO:     127.0.0.1:42364 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42376 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42390 - "GET /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42376 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:42390 - "GET /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42398 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42398 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:12:26+0000: Processing request of type CallToolRequest
+INFO:     127.0.0.1:42410 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42410 - "POST /mcp/ HTTP/1.1" 200 OK
+[INFO|server|L720] 2026-01-28T14:12:27+0000: Processing request of type ListToolsRequest
+INFO:     127.0.0.1:42418 - "DELETE /mcp HTTP/1.1" 307 Temporary Redirect
+[INFO|streamable_http|L779] 2026-01-28T14:12:27+0000: Terminating session: ed67da3c64204411ba3507b330dfdc0a
+INFO:     127.0.0.1:42418 - "DELETE /mcp/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+ERROR:    Cancel 0 running task(s), timeout graceful shutdown exceeded
+INFO:     Waiting for application shutdown.
+[INFO|streamable_http_manager|L120] 2026-01-28T14:12:50+0000: StreamableHTTP session manager shutting down
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1181]

@@ -1,0 +1,80 @@
+
+
+[2m╭──────────────────────────────────────────────────────────────────────────────╮[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                        [36m [0m[36m▄[0m[36m▀[0m[36m▀[0m[36m [0m[36m▄[0m[36m▀[0m[36m█[0m[36m [0m[36m█[0m[36m▀[0m[36m▀[0m[36m [0m[36m▀[0m[36m█[0m[36m▀[0m[36m [0m[36m█[0m[36m▀[0m[36m▄[0m[36m▀[0m[36m█[0m[94m [0m[94m█[0m[94m▀[0m[94m▀[0m[94m [0m[94m█[0m[94m▀[0m[94m█[0m                        [2m│[0m
+[2m│[0m                        [36m [0m[36m█[0m[36m▀[0m[36m [0m[36m [0m[36m█[0m[36m▀[0m[36m█[0m[36m [0m[36m▄[0m[36m▄[0m[36m█[0m[36m [0m[36m [0m[36m█[0m[36m [0m[36m [0m[36m█[0m[36m [0m[36m▀[0m[36m [0m[36m█[0m[94m [0m[94m█[0m[94m▄[0m[94m▄[0m[94m [0m[94m█[0m[94m▀[0m[94m▀[0m                        [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                                [1;34mFastMCP 2.14.4[0m                                [2m│[0m
+[2m│[0m                            [2mhttps://gofastmcp.com[0m                             [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m│[0m                 [1m🖥 [0m[1m [0m[36mServer:     [0m[36m [0m[2mMy Random Number MCP Server[0m                  [2m│[0m
+[2m│[0m                 [1m🚀[0m[1m [0m[36mDeploy free:[0m[36m [0m[2mhttps://fastmcp.cloud      [0m                  [2m│[0m
+[2m│[0m                                                                              [2m│[0m
+[2m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+[34m╭──────────────────────────────────────────────────────────────────────────────╮[0m
+[34m│[0m                          [1m✨ FastMCP 3.0 is coming![0m                           [34m│[0m
+[34m│[0m       [2mPin [0m[1;2m`fastmcp < 3`[0m[2m in production, then upgrade when you're ready.[0m       [34m│[0m
+[34m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+
+
+[2;36m[01/28/26 14:04:49][0m[2;36m [0m[34mINFO    [0m Starting MCP server [32m'My Random [0m      ]8;id=234053;file:///home/jovyan/.local/lib/python3.11/site-packages/fastmcp/server/server.py\[2mserver.py[0m]8;;\[2m:[0m]8;id=146316;file:///home/jovyan/.local/lib/python3.11/site-packages/fastmcp/server/server.py#2580\[2m2580[0m]8;;\
+[2;36m                    [0m         [32mNumber MCP Server'[0m with transport    [2m              [0m
+[2;36m                    [0m         [32m'http'[0m on [4;94mhttp://127.0.0.1:8673/mcp[0m  [2m              [0m
+INFO:     Started server process [1159]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8673 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41774 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41780 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41794 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41804 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41808 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41822 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41826 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41842 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41844 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41848 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41864 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41876 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:41890 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41900 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41914 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41924 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43372 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43386 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:43400 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43414 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43424 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38438 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38442 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:38450 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38462 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38472 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35782 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35790 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35802 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35804 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35816 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35824 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35834 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35832 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:35848 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35854 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47610 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47618 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47620 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47634 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47640 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47654 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47678 - "GET /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47666 - "POST /mcp HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:47688 - "POST /mcp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47704 - "DELETE /mcp HTTP/1.1" 200 OK
+INFO:     Shutting down
+ERROR:    Cancel 0 running task(s), timeout graceful shutdown exceeded
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1159]
